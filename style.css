@@ -2,12 +2,20 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#8e8989;
 }
+body h1::after{
+    content: "";
+    width: 121px;
+    height: 3px;
+    display: block;
+    background-color: red;
+    margin: 0 auto;
+}
 /* header section  */
 .header .logo-img{
     width: 150px;
     height: 55px;
 }
-.header h1{
+.header h2{
     color: #DC3545;
 }
 .header p{
@@ -25,6 +33,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     min-height:500px;
+}
+.slide-section h2{
+    font-size: 40px;
 }
 .slide-container-full{
     background-color:#dbd7d7a3; ;
