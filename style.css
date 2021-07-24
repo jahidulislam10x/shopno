@@ -32,7 +32,7 @@ body h1::after{
     background: url(images/photo-supermarket.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height:500px;
+    height:500px;
 }
 .slide-section h2{
     font-size: 40px;
