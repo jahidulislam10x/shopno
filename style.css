@@ -1,0 +1,95 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#8e8989;
+}
+/* header section  */
+.header .logo-img{
+    width: 150px;
+    height: 55px;
+}
+.header h1{
+    color: #DC3545;
+}
+.header p{
+    font-size: 16px;
+}
+ .header .icon{
+     color: #FAB005;
+ }
+
+/* end header section  */
+
+/* start slide video section  */
+.slide-section{
+    background: url(images/photo-supermarket.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:500px;
+}
+.slide-container-full{
+    background-color:#dbd7d7a3; ;
+}
+.slide-section .slide-content{
+    padding: 16% 0%;
+    color: #DC3545;
+}
+ /* end slide video section  */
+
+/* spacial offer section  */
+.card-body .fa-star{
+    color: rgb(255, 230, 0);
+}
+.card-body .non-rate{
+    color: #ddd
+}
+/* end offer section  */
+
+ /* start big sell  */
+.big-sale .box-1{
+    background: url(images/co1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+}
+.big-sale .box-2{
+    background: url(images/co.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+}
+.big-sale .box-3 .semi-box-1{
+    background: url(images/co2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+}
+.big-sale .box-3 .semi-box-2{
+    background: url(images/co3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+}
+ /* end big sell  */
+
+/* start offer slider section  */
+.offer-slider .active{
+    background-color: red;
+}
+
+/* end offer slider section  */
+
+
+
+/* start map section  */
+.map-section img{
+    width: 100%;
+    height: 400px;
+}
+/* end map section  */
+ 
+
+
+/* footer section  */
+.footer-section{
+    border-top: 2px solid #ddd;
+}
