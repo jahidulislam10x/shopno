@@ -38,7 +38,9 @@ body h1::after{
     font-size: 40px;
 }
 .slide-container-full{
-    background-color:#dbd7d7a3; ;
+    background-color:#dbd7d7a3;
+    width: 100%;
+    height: 100%;
 }
 .slide-section .slide-content{
     padding: 16% 0%;
